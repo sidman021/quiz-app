@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz WebApp</title>
     <link rel="stylesheet" href="quiz.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="game">
+            <div class="content">
+                <h1 class="ques"></h1>
+                <div class="opts">
+                    <!-- <div class="ans">
+                        <input name="anss" type="radio" id="ans1" value="false">
+                        <label for="ans1">Narendra Modi</label>
+                    </div>
+                    <div class="ans">
+                        <input name="anss" type="radio" id="ans2" value="false">
+                        <label for="ans2">Rajiv Gandhi</label>
+                    </div>
+                    <div class="ans">
+                        <input name="anss" type="radio" id="ans3" value="false">
+                        <label for="ans3">P.V Narsimha rao</label>
+                    </div>
+                    <div class="ans">
+                        <input name="anss" type="radio" id="ans4" value="True">
+                        <label for="ans4">Jawaharlal Nehru</label>
+                    </div> -->
+                </div>
+            </div>
+            <button class="submit">Submit</button>
+        </div>
+        <div class="result">
+            <div class="top">
+                <h1>Congratulations </h1>
+                <h3 class="correct"></h3>
+                <h3 class="wrong"></h3>
+                <h2 class="score"></h2>
+            </div>
+            <button class="play" onclick="window.location.reload()">Play Again</button>
+        </div>
+    </div>
     <script src="quiz.js"></script>
 </body>
+
 </html>
